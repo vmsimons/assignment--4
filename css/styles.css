@@ -5,10 +5,14 @@ Universal Styling*************
 -----------------------------*/
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Exo', sans-serif;
 }
 
 /*----------------------------
@@ -16,3 +20,41 @@ Universal Styling*************
 Header Styling****************
 
 -----------------------------*/
+header nav ul li {
+display: inline-block;
+margin: 10px 39px;
+font-size: 17px;
+text-transform: uppercase;
+}
+
+header nav {
+width: 100%;
+margin: auto;
+text-align: center;
+background: green;
+color: white;
+letter-spacing: 1px;
+position: fixed;
+font-weight: 600;
+z-index: 99999;
+}
+
+/*----------------------------
+
+Hero Image Styling****************
+
+-----------------------------*/
+
+.hero-image img {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+.visit h1 {
+    position: absolute;
+    top: 76%;
+    left: 5%;
+    color: white;
+}
