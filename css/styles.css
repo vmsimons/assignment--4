@@ -31,7 +31,7 @@ header nav {
 width: 100%;
 margin: auto;
 text-align: center;
-background: green;
+background: #2f6d31;
 color: white;
 letter-spacing: 1px;
 position: fixed;
@@ -75,8 +75,14 @@ Container Styling****************
 .left-half img {
     float: left;
     position: absolute;
-    margin-left: 16px;
+    margin-left: 5px;
     margin-top: 9px;
+    transition: .2s;
+}
+
+.left-half img:hover {
+    transform: scale(1.2);
+    transition: .2s;
 }
 
 .right-half {
@@ -96,4 +102,32 @@ Container Styling****************
     text-align: center;
     color: rgb(151 103 47);
     font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.date {
+    font-weight: bold;
+    color: #2f6d31;
+    font-size: 19px;
+}
+
+/*----------------------------
+
+Footer Styling****************
+
+-----------------------------*/
+
+.footer {
+    background: #2f6d31;
+    width: 100%;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 23px;
 }
