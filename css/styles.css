@@ -58,3 +58,42 @@ Hero Image Styling****************
     left: 5%;
     color: white;
 }
+
+/*----------------------------
+
+Container Styling****************
+
+-----------------------------*/
+
+.container {
+    max-width: 73%;
+    margin: 0 auto;
+    padding: 30px 15px;
+    min-height: 73vh;
+}
+
+.left-half img {
+    float: left;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 9px;
+}
+
+.right-half {
+    padding: 0px 20px;
+    max-width: 500px;
+    display: inline-block;
+    float: right;
+}
+
+.history {
+    line-height: 22px;
+    padding: 0px 5px;
+}
+
+.right-half h2 {
+    margin: 0px 0px 8px;
+    text-align: center;
+    color: rgb(151 103 47);
+    font-weight: bold;
+}
