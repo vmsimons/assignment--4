@@ -54,9 +54,11 @@ Hero Image Styling****************
 
 .visit h1 {
     position: absolute;
-    top: 76%;
+    top: 81%;
     left: 5%;
     color: white;
+    font-size: 60px;
+    z-index: 9;
 }
 
 /*----------------------------
